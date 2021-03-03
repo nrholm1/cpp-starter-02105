@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+int algorithm(int* array, int length) {
+     return -1;
+}
+
 int main(){
      int length;
      cin >> length;
@@ -9,6 +13,5 @@ int main(){
      while (counter < length)
          cin >> B[counter++];
 
-     cout << peak2(B, length) << endl;
-     cout << peak3(B,length,0,length - 1) << endl;
+     cout << algorithm(B, length) << endl;
 }
